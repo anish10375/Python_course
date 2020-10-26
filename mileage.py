@@ -1,0 +1,6 @@
+odometer_initial = int(input("Enter initial odometer reading "))
+odometer_final   = int(input("Enter final odometer reading "))
+fuel_initial     = int(input("Enter initial fuel reading "))
+fuel_final       = int(input("Enter final fuel reading "))
+Mileage          = (odometer_final-odometer_initial)/(fuel_initial-fuel_final)
+print(Mileage, "km/L")
